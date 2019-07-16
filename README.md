@@ -45,6 +45,8 @@ When the reader has completed this code pattern, they will understand how to:
 
 * [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
 
+* [IBM Watson Machine Learning](https://www.ibm.com/in-en/cloud/machine-learning): IBM Watson Machine Learning helps data scientists and developers work together to accelerate the process of moving to deployment and integrate AI into their applications.
+
 * [IBM Cloud Object Storage](https://console.bluemix.net/catalog/services/cloud-object-storage): An IBM Cloud service that provides an unstructured cloud data store to build and deliver cost effective apps and services with high reliability and fast speed to market. This code pattern uses Cloud Object Storage.
 
 * [Jupyter Notebooks](http://jupyter.org/): An open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
@@ -52,6 +54,7 @@ When the reader has completed this code pattern, they will understand how to:
 ## Featured technologies
 
 * [Data Science](https://developer.ibm.com/code/technologies/data-science/): Systems and scientific methods to analyze structured and unstructured data in order to extract knowledge and insights.
+* [Artificial Intelligence](https://www.ibm.com/in-en/services/artificial-intelligence): Create systems that accelerate, enhance, and scale the human expertise.
 * [Analytics](https://developer.ibm.com/code/technologies/analytics/): Analytics delivers the value of data for the enterprise.
 * [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 
