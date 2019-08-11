@@ -22,7 +22,7 @@ It should take about 45 mins to an hour to complete the tutorial.
 `First step`
 ![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/create_txt_file.png)
 
-`Next Steps`
+`Next Step`
 ![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/extract_data.png)
 
 `Subsequent Steps`
@@ -31,10 +31,14 @@ It should take about 45 mins to an hour to complete the tutorial.
 
 From the screenshots, we are able to define the input & target parameters using a text file, convert the raw image data into pixel array and then dump them into a pickle file which will be consumed by deep learning models. Repeat this process thrice for creating training, testing & validation pickle files. Another point to be noted is that all images are to be of same size in order to pickle the data which is why the resizing of images has to be done first before pickling the data.
 
-**Remove background noise** :
+**Remove background noise** : This step is to enhance accuracy by removing the background of an image. An image consists of features and if the goal is to identify a person or an object, then we can try to remove all other features apart from the one in question. An example is given below where we try to identify the posture of the person and we are removing most of the other features which are not relevant.
 
+![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/remove_bckgrnd.png)
 
 ## Summary
-State any closing remarks about the task or goal you described and its importance. Reiterate specific benefits the reader can expect from completing your tutorial. Recommend a next step (with link if possible) where they can continue to expand their skills after completing your tutorial.
+We have discussed a few steps which are part of image preprocessing and these steps can help a great deal with regards to enhancing model accuracy. I will try to add a few more as and when time permits.
+
 ## Related links
-Include links to other resources that may be of interest to someone who is reading your tutorial.
+The implementation of deep learning methodology for image classification is available here. Please explore these steps and see how the performance improves with preprocessing the images. 
+
+View the code, demo and more at https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service
