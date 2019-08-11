@@ -23,11 +23,13 @@ It should take about 45 mins to an hour to complete the tutorial.
 ![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/create_txt_file.png)
 
 `Next Steps`
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/create_pkl_file_1.png)
+![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/extract_data.png)
 
+`Subsequent Steps`
+![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/create_pkl_file_1.png)
 ![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/create_pkl_file_2.png)
 
-From the screenshots, we are able to define the input & target parameters, convert the raw image data into pixel array and then dump them into a pickle file which will be consumed by deep learning models. Repeat this process thrice for creating training, testing & validation pickle files. 
+From the screenshots, we are able to define the input & target parameters using a text file, convert the raw image data into pixel array and then dump them into a pickle file which will be consumed by deep learning models. Repeat this process thrice for creating training, testing & validation pickle files. Another point to be noted is that all images are to be of same size in order to pickle the data which is why the resizing of images has to be done first before pickling the data.
 
 * Remove background noise :
 
