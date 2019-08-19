@@ -20,7 +20,7 @@ It should take about 45 mins to an hour to complete the tutorial.
 **Pickle the data** : In this step, we will discuss how and why do we need to pickle the images data. The primary reason is to convert the images from jpeg/png format into a pixel array which will have inputs and targets defined. This array of numbers will help any model (machine learning, deep learning & pretrained) to learn the features and understand the pattern well of any given class which will enhance the accuracy of the model. We will see in below steps how to create a pixel array and write it into a pickle file.
 
 `First step`
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/create_txt_file.png)
+![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/create_txt.png)
 
 `Next Step`
 ![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/extract_data.png)
