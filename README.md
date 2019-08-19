@@ -45,9 +45,9 @@ From the screenshots, we are able to define the input & target parameters using 
 ![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/remove_bckgrnd.png)
 
 ## Summary
-We have discussed a few steps which are part of image preprocessing and these steps can help a great deal with regards to enhancing model accuracy. I will try to add a few more as and when time permits.
+We have discussed a few steps which are part of image preprocessing and these steps can help to a good extent with regards to preprocessing the images & also enhances the model accuracy. We have to play around with these parameters and also add new parameters if required to get the desired output. This is not an exhaustive list but will definitely help in getting started. 
 
 ## Related links
-The implementation of deep learning methodology for image classification is available here. Please explore these steps and see how the performance improves with preprocessing the images. 
+The implementation of deep learning methodology for image classification is available at the below url. Please explore the above mentioned steps and see how the performance improves with preprocessing the images.  
 
 View the code, demo and more at https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service
