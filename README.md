@@ -35,6 +35,9 @@ From the screenshots, we are able to define the input & target parameters using 
 
 **Remove background noise** : This step is to enhance accuracy by removing the background of an image. An image consists of features and if the goal is to identify a person or an object, then we can try to remove all other features apart from the one in question. An example is given below where we try to identify the posture of the person and we are removing most of the other features which are not relevant.
 
+![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/rmv_bckgnd_1)
+![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/rmv_bckgnd_2)
+
 ![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/remove_bckgrnd.png)
 
 ## Summary
