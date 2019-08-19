@@ -41,8 +41,14 @@ From the screenshots, we are able to define the input & target parameters using 
 
 ![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/rmv_bckgnd_1.png)
 ![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/rmv_bckgnd_2.png)
-
 ![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/remove_bckgrnd.png)
+
+Some of the other methods to remove background are as follows.
+* Watershed Method
+* Grab cut Method
+* Background Subtractor
+
+There are additional resources available on exploration to understand more about background removal.
 
 ## Summary
 We have discussed a few steps which are part of image preprocessing and these steps can help to a good extent with regards to preprocessing the images & also enhances the model accuracy. We have to play around with these parameters and also add new parameters if required to get the desired output. This is not an exhaustive list but will definitely help in getting started. 
