@@ -1,6 +1,6 @@
 # Multi Class Image Classification of Yoga postures using Watson Studio and Deep Learning as a Service
 
-Computer vision usability is on the rise these days and there could be scenarios where a machine has to classify images based on their class to aid the decision making process. In this pattern, we will demonstrate a methodology to do multi class classification (with around 4 classes) using Watson Studio. We will be using yoga postures data to identify the class given an image. This methodology can be applied to any domain and dataset which requires multiple classes of images to be classified accurately which can be extended for further analysis. Some of the advantages of computer vision are reliability, accuracy, cost reduction, wide range of use and simpler processes. We will demonstrate how to use Python scripts & drag n drop GUI for achieving the objective.
+Computer vision usability is on the rise these days and there could be scenarios where a machine has to classify images based on their class to aid the decision making process. In this tutorial, we will demonstrate a methodology to do preprocessing of the images to remove unnecessary information and help the model to learn the features of the images effectively thereby enhancing the accuracy. THis tutorial has to be used in conjunction with the code pattern listed towards the end to experiment different steps in preprocessing and their impact on the outcome which is prediction accuracy of image classification. 
 
 ## Introduction
 The purpose of this tutorial is to discuss a few methods to preprocess the images before it is ingested into model building process. This includes resizing the images, creating the pixel arrays of images and pickling the data, removing background noise from the images et'al.
@@ -45,7 +45,7 @@ From the screenshots, we are able to define the input & target parameters using 
 
 Some of the other methods to remove background are as follows.
 * Watershed Method
-* Grab cut Method
+* Grabcut Method
 * Background Subtractor
 
 There are additional resources available on exploration to understand more about background removal.
@@ -54,6 +54,6 @@ There are additional resources available on exploration to understand more about
 We have discussed a few steps which are part of image preprocessing and these steps can help to a good extent with regards to preprocessing the images & also enhances the model accuracy. We have to play around with these parameters and also add new parameters if required to get the desired output. This is not an exhaustive list but will definitely help in getting started. 
 
 ## Related links
-The implementation of deep learning methodology for image classification is available at the below url. Please explore the above mentioned steps and see how the performance improves with preprocessing the images.  
+The implementation of deep learning methodology for image classification is available at the below url. Please explore the above mentioned steps and see how the performance of the model improves with preprocessing the images.  
 
 View the code, demo and more at https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service
